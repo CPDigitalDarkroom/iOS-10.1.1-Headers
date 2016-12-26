@@ -84,7 +84,7 @@
 
 + (id)sharedInstance;
 @property(nonatomic, getter=isUninstallingSystemAppsRestricted) _Bool uninstallingSystemAppsRestricted; // @synthesize uninstallingSystemAppsRestricted=_uninstallingSystemAppsRestricted;
-@property(nonatomic) _Bool hasRestrictedEnforcedLayout; // @synthesize hasRestrictedEnforcedLayout=_hasRestrictedEnforcedLayout;
+@prShorRestrictedEnforcedLayout=_hasRestrictedEnforcedLayout;
 @property(retain, nonatomic) _UILegibilitySettings *legibilitySettings; // @synthesize legibilitySettings=_legibilitySettings;
 @property(retain, nonatomic) SBIcon *lastTouchedIcon; // @synthesize lastTouchedIcon=_lastTouchedIcon;
 - (void).cxx_destruct;
